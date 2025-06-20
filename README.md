@@ -2,17 +2,6 @@
 
 A pixel-perfect recreation of the DEVLOP.ME portfolio design built with Next.js 14 and Tailwind CSS.
 
-## 🚀 Features
-
-- **100% Pixel-Perfect Design** - Exact recreation of the provided design
-- **Dark/Light Mode Toggle** - With localStorage persistence
-- **Fully Responsive** - Mobile, tablet, and desktop optimized
-- **Modern Tech Stack** - Next.js 14, React 18, TypeScript, Tailwind CSS
-- **Component-Based Architecture** - Reusable and maintainable components
-- **Smooth Animations** - Fade-in effects, hover states, and transitions
-- **Accessibility** - ARIA roles, keyboard navigation, focus management
-- **SEO Optimized** - Meta tags, semantic HTML structure
-
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
@@ -20,38 +9,6 @@ A pixel-perfect recreation of the DEVLOP.ME portfolio design built with Next.js 
 - **Language**: TypeScript
 - **Icons**: Lucide React
 - **Animations**: CSS animations with Tailwind utilities
-
-## 📁 Project Structure
-
-\`\`\`
-devlop-portfolio/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── ui/
-│   │   ├── AtomIcon.tsx
-│   │   ├── Button.tsx
-│   │   ├── Card.tsx
-│   │   ├── Input.tsx
-│   │   ├── SocialIcons.tsx
-│   │   └── Textarea.tsx
-│   ├── About.tsx
-│   ├── Contact.tsx
-│   ├── Footer.tsx
-│   ├── Hero.tsx
-│   ├── Navbar.tsx
-│   ├── Skills.tsx
-│   └── WorkProcess.tsx
-├── hooks/
-│   └── useTheme.ts
-├── utils/
-│   └── cn.ts
-├── package.json
-├── tailwind.config.js
-└── README.md
-\`\`\`
 
 ## 🚀 Getting Started
 
@@ -92,23 +49,6 @@ npm run build
 npm start
 \`\`\`
 
-## 🎨 Design Features
-
-### Color Palette
-- **Primary**: Lime Green (#84cc16)
-- **Secondary**: Yellow (#eab308)
-- **Dark**: Black (#000000)
-- **Light**: White (#ffffff)
-- **Gray Variants**: Multiple shades for dark mode
-
-### Typography
-- **Font Family**: Inter (Google Fonts)
-- **Weights**: 400 (Regular), 500 (Medium), 600 (Semibold), 700 (Bold)
-
-### Responsive Breakpoints
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
 
 ## 🔧 Customization
 
@@ -139,30 +79,6 @@ The portfolio is fully responsive with:
 - **Touch-friendly interactions**
 - **Optimized images and assets**
 
-## ♿ Accessibility
-
-- **ARIA labels** for interactive elements
-- **Keyboard navigation** support
-- **Focus indicators** for all interactive elements
-- **Semantic HTML** structure
-- **Screen reader** friendly content
-- **Color contrast** compliance
-
-## 🎭 Animations
-
-- **Fade-in on scroll** for sections
-- **Hover effects** on buttons and cards
-- **Smooth transitions** between theme modes
-- **Loading animations** for interactive elements
-- **Custom atom icon** animation in skills section
-
-## 🔍 SEO Features
-
-- **Meta tags** for social sharing
-- **Structured data** markup
-- **Semantic HTML** elements
-- **Optimized images** with alt text
-- **Clean URL** structure
 
 ## 📄 License
 
@@ -175,11 +91,6 @@ This project is for portfolio demonstration purposes.
 3. Make your changes
 4. Submit a pull request
 
-## 📞 Contact
-
-For questions or support, please contact:
-- **Email**: hello@devlop.me.com
-- **Twitter**: @williamrey
 
 ---
 
