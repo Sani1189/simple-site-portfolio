@@ -5,9 +5,7 @@ export default function Footer() {
     <footer className="bg-black dark:bg-gray-900 mx-[5px] rounded-[20px] py-12 sm:py-16 px-[5px] relative -my-10 transition-colors duration-300">
       <div className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
-          {/* Main Footer Layout */}
           <div className="flex flex-col lg:flex-row mb-12 sm:mb-16">
-            {/* Left Side - DEVLOP.ME */}
             <div className="lg:w-[30%] mb-8 lg:mb-0 animate-fadeInUp text-center lg:text-left">
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lime-400 hover:text-lime-300 transition-colors duration-300 cursor-pointer">
                 DEVLOP.ME
@@ -16,18 +14,15 @@ export default function Footer() {
 
             {/* Right Side */}
             <div className="lg:w-[70%]">
-              {/* As you can - Large Text */}
-              <div className="text-center lg:text-right mb-8 sm:mb-12 animate-fadeInUp animation-delay-200">
+              <div className="text-center lg:text-left mb-8 sm:mb-12 animate-fadeInUp animation-delay-200">
                 <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[96px] font-bold text-white dark:text-gray-100 italic leading-tight hover:text-gray-200 dark:hover:text-white transition-colors duration-300 cursor-pointer">
                   As you can
                 </h2>
               </div>
 
-              {/* Content Grid - Responsive */}
+
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
-                {/* Say Hello + Call Section */}
                 <div className="animate-fadeInUp animation-delay-400 text-center sm:text-left">
-                  {/* Say hello */}
                   <div className="mb-6 sm:mb-8">
                     <h4 className="text-gray-400 dark:text-gray-500 font-medium mb-3 sm:mb-4 text-sm sm:text-base tracking-wide">
                       Say hello

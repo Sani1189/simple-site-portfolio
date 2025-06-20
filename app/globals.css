@@ -27,7 +27,11 @@
 html {
   scroll-behavior: smooth;
 }
-
+.card-rotate-hover:hover {
+  transform: scale(1.05) rotate(7deg);
+  transition: transform 0.5s ease-out;
+  transform-origin: center center;
+}
 /* Custom animations */
 @keyframes fadeInUp {
   from {

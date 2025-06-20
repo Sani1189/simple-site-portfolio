@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "@/hooks/useTheme"
-import Button from "@/components/ui/Button"
+import Button from "@/components/ui/button"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,15 +27,13 @@ export default function Navbar() {
   if (!mounted) return null
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm transition-colors duration-300">
+    <nav className="fixed top-0 w-full z-50 bg-white/50 dark:bg-gray-900/80 backdrop-blur-sm transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
-          {/* Logo */}
           <div className="text-xl sm:text-2xl font-bold text-black dark:text-white transition-colors duration-300">
             DEVLOP.ME
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 lg:space-x-12">
             {navItems.map((item) => (
               <button
@@ -48,9 +46,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Right Side Actions */}
           <div className="flex items-center space-x-3 sm:space-x-4">
-            {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-white/20 dark:bg-gray-800/50 text-black dark:text-white hover:bg-white/30 dark:hover:bg-gray-700/50 transition-colors duration-200"

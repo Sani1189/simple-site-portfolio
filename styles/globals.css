@@ -11,6 +11,11 @@ body {
     text-wrap: balance;
   }
 }
+.card-rotate-hover:hover {
+  transform: scale(1.05) rotate(7deg);
+  transition: transform 0.5s ease-out;
+  transform-origin: center center;
+}
 
 @layer base {
   :root {

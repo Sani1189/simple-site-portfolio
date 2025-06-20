@@ -29,7 +29,7 @@ export default function Contact() {
       id="contact"
       className="py-16 sm:py-24 lg:py-32 transition-colors duration-300 relative overflow-hidden"
       style={{
-        backgroundImage: "url('/images/bg2.png')",
+        backgroundImage: "url('/images/bg3.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -37,24 +37,35 @@ export default function Contact() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-          {/* Left Side - Content */}
+
           <div className="animate-fadeInUp text-center lg:text-left">
-            {/* Contact Badge */}
-            <div className="inline-flex items-center bg-white dark:bg-gray-800 text-black dark:text-white border border-black dark:border-white px-4 sm:px-6 py-2 sm:py-3 rounded-full mb-8 sm:mb-12 transition-colors duration-300">
-              <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full border border-black dark:border-white mr-2 sm:mr-3 flex items-center justify-center">
+
+            <div className="inline-flex items-center mb-8 sm:mb-12">
+
+              <div className="w-8 h-8 rounded-full border border-black dark:border-white flex items-center justify-center bg-transparent">
                 <svg
-                  className="w-1.5 h-1.5 sm:w-2 sm:h-2 text-black dark:text-white"
+                  className="w-4 h-4 text-black dark:text-white"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                  />
                 </svg>
               </div>
-              <span className="text-sm sm:text-base font-medium">Contact</span>
+
+
+              <div className="border border-black dark:border-white px-4 sm:px-6 py-2 sm:py-3 rounded-full ml-[-1px] bg-transparent text-black dark:text-white">
+                <span className="text-sm sm:text-base font-medium">Contact</span>
+              </div>
             </div>
 
-            {/* Main Heading */}
+
+
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] font-bold text-black dark:text-white leading-tight mb-6 sm:mb-8 transition-colors duration-300">
               Interested in
               <br />
@@ -103,9 +114,8 @@ export default function Contact() {
                   required
                 />
                 <div
-                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${
-                    focusedField === "name" || formData.name ? "w-full" : "w-0"
-                  }`}
+                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${focusedField === "name" || formData.name ? "w-full" : "w-0"
+                    }`}
                 />
               </div>
 
@@ -123,9 +133,8 @@ export default function Contact() {
                   required
                 />
                 <div
-                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${
-                    focusedField === "email" || formData.email ? "w-full" : "w-0"
-                  }`}
+                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${focusedField === "email" || formData.email ? "w-full" : "w-0"
+                    }`}
                 />
               </div>
 
@@ -143,9 +152,8 @@ export default function Contact() {
                   required
                 />
                 <div
-                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${
-                    focusedField === "project" || formData.project ? "w-full" : "w-0"
-                  }`}
+                  className={`absolute bottom-0 left-0 h-0.5 bg-lime-400 transition-all duration-300 ${focusedField === "project" || formData.project ? "w-full" : "w-0"
+                    }`}
                 />
               </div>
 

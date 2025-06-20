@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 const grotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-sporting" })
 
 export const metadata: Metadata = {
-  title: "DEVLOP.ME - Developer Portfolio",
+  title: "Developer Portfolio",
   description:
     "Trusted Partner for Your Website Development - Building the worlds best marketing websites for over a decade.",
   keywords: "web development, portfolio, marketing websites, strategy, design, development, williamrey",
