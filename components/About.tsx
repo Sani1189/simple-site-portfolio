@@ -8,8 +8,6 @@ export default function About() {
       style={{
         backgroundImage: "url('/images/bg2.png')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

@@ -88,6 +88,11 @@ export default function WorkProcess() {
                   hover:scale-105
                   hover:rotate-[6deg]
                   hover:shadow-2xl
+                  dark:hover:bg-lime-400
+                  dark:hover:text-gray-900
+                  dark:hover:scale-105
+                  dark:hover:rotate-[6deg]
+                  dark:hover:shadow-2xl
                 `}
                 style={{
                   animationDelay: `${index * 200 + 400}ms`,
